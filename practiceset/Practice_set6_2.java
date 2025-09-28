@@ -2,9 +2,18 @@ import java.util.Scanner;
 
 public class Practice_set6_2 {
     public static void main(String[] args) {
-        int [] MyArray= {1,2,3,4,8,6};
-
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter size of an Array : ");
+        int size = sc.nextInt();
+
+        int[] MyArray = new int [size];
+
+        System.out.println("Enter "+ size + "elements: ");
+        for(int i=0; i<MyArray.length; i++){
+            MyArray[i]= sc.nextInt();
+        }
+
         int n;
         System.out.println("Enter element to search : ");
         n = sc.nextInt();
