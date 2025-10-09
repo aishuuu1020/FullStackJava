@@ -5,7 +5,7 @@ public class Practiceset7_1 {
      void Multiplication_table(int n){
         for(int i=1; i<=10; i++){
             int result= n*i;
-            System.out.println("Table is : " + result);
+            System.out.printf("Table is : " + result);
         }
          int result;
          return ;
